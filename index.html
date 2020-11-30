@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Color Game</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="p-1">The Great Color<br>Guessing Game with <br><span id="colorDisplay" class="display-4">RGB(129,88,46)</span></h1>
+    </div>
+
+    <div class="bg-light p-1">
+        <div class="container d-flex justify-content-between align-items-center">
+            <button class="btn" id="reset">New Color</button>
+            <span id="message"></span>
+            <div>
+                <button class="btn" id="easyBtn">Easy</button>
+                <button class="btn" id="mediumBtn">Medium</button>
+                <button class="btn selected" id="hardBtn">Hard</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <main class="circle"></main>
+        <main class="circle"></main>
+        <main class="circle"></main>
+        <main class="circle"></main>
+        <main class="circle"></main>
+        <main class="circle"></main>
+        <main class="circle"></main>
+        <main class="circle"></main>
+    </div>
+
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.js"></script>
+
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>

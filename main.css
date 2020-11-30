@@ -1,0 +1,48 @@
+body{
+    font-family: 'Quicksand',sans-serif;
+    min-height: 100vh;
+    /*background: linear-gradient(10deg, #D7FFF1 30%, #8CD790 30%);*/
+    background: #8CD790;
+}
+
+h1{
+    text-align: center;
+    font-weight: lighter;
+    border-radius: 0 0 20px 20px;
+    color: aliceblue;
+    background: #285943 ;
+}
+
+h1 span{
+    font-weight: bolder !important;
+    color: #8CD790;
+}
+
+/*Colors Box (Square)*/
+.circle{
+    border-radius: 50%;
+    float: left;
+    margin: 2%;
+    width: 20%;
+    background: firebrick;
+    padding-bottom: 20% ;
+}
+
+
+
+.circle-six{
+    border-radius: 50%;
+    float: left;
+    margin:2% 6.5% 2% 6.5%;
+    width: 20%;
+    background: firebrick;
+    padding-bottom: 20% ;
+}
+
+span, button{
+    font-weight: bold !important;
+}
+
+.selected, .btn:hover{
+    background-color: cyan;
+}
